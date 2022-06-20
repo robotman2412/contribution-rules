@@ -9,14 +9,18 @@ Note: Style applies to each git repository separately, submodules do not count t
 3. Avoid block comments (`/* comment */`) because they are hard to edit
 
 # Brace style
-Same-line braces:
+Same-line braces, including if...else
 
 ### Example
 ```c
 void function() {
     // Something happens...
-    while (condition) {
+    if (condition) {
         // More code.
+    } else if (condition) {
+        // Yet another path.
+    } else {
+        // Final path.
     }
 }
 ```

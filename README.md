@@ -90,3 +90,8 @@ This is bad code because:
 - The comments literally translate the next line.
 - The empty lines are not well placed.
 
+### Commit messages
+It's sometimes hard to be descriptive in commit messages.
+As a rule of thumb, try to describe the goal you're working towards.
+
+Avoid (and i'm guilty of this) swear words and improper capitalisation.
